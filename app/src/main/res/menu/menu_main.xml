@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="codeplated.shopitbaby.MainActivity">
+
+
+
+    <item
+        android:id="@+id/addMember"
+        android:orderInCategory="100"
+        android:title="@string/addMember"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="@string/refresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Logout"
+        android:orderInCategory="100"
+        android:title="@string/title_logout"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/btn_add_product"
+        android:icon="@drawable/ic_add_circle_24dp"
+        android:title="Add Product"
+        app:showAsAction="always"
+        android:backgroundTint="#ffffff"/>
+    <item
+        android:id="@+id/fabOpenCamera"
+        android:icon="@drawable/ic_photo_camera_24dp"
+        android:title="Add Picture"
+        app:showAsAction="always"
+        android:tint="#ffffff"/>
+</menu>

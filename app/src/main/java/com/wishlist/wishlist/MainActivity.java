@@ -64,7 +64,9 @@ public class MainActivity extends AppCompatActivity {
      * loaded fragment in memory. If this becomes too memory intensive, it
      * may be best to switch to a
      * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
+     *
+     * 
+     * */
     private SectionsPagerAdapter mSectionsPagerAdapter;
     static final int REQUEST_IMAGE_CAPTURE = 1;
     /**
